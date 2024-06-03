@@ -1,0 +1,90 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(20, 46, 74);
+}
+
+
+.home-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.home-heading {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #7f7878; /* Dark grey */
+}
+
+.search-container {
+  margin-bottom: 20px;
+}
+
+.search-input {
+  padding: 10px;
+  border: 2px solid #0b0750; /* Dark purple */
+  border-radius: 20px;
+  margin-right: 10px;
+  width: 300px;
+}
+
+.search-button {
+  padding: 10px 20px;
+  background-color: #007bff; /* Blue */
+  color: #fff; /* White */
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+.search-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.error-message {
+  color: red; /* Red */
+}
+
+.movie-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.movie-card {
+  width: 250px;
+  margin: 20px;
+  padding: 10px;
+  border: px solid #42187e; /* Dark purple */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(57, 139, 159, 0.67); /* Green shadow */
+  transition: transform 0.3s; /* Smooth transition */
+}
+
+.movie-card:hover {
+  transform: translateY(-5px);
+}
+
+.movie-poster {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.movie-details {
+  padding: 10px 0;
+  border-radius: 7px;
+  background: linear-gradient(to bottom, #3b228d 0%, #178663 100%); /* Gradient background */
+}
+
+.movie-title {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #9f9c9c; /* Dark grey */
+}
+
+.movie-year {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #f4f0f0; /* Light grey */
+}
